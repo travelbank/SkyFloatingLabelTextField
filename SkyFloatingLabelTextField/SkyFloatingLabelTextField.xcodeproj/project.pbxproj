@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		238F02F2223879830017937F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F02F1223879830017937F /* String+Extension.swift */; };
+		23966CB0223888BC00D476B5 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23966CAF223888BB00D476B5 /* String+Extension.swift */; };
 		934DBCFF1CC774B900E03F87 /* SkyFloatingLabelTextField.strings in Resources */ = {isa = PBXBuildFile; fileRef = 934DBD011CC774B900E03F87 /* SkyFloatingLabelTextField.strings */; };
 		934DBD021CC775D300E03F87 /* SkyFloatingLabelTextField.strings in Resources */ = {isa = PBXBuildFile; fileRef = 934DBD011CC774B900E03F87 /* SkyFloatingLabelTextField.strings */; };
 		C70C15ED1E8C433000E0673B /* SkyFloatingLabelTextFieldAppearanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C15EC1E8C433000E0673B /* SkyFloatingLabelTextFieldAppearanceTests.swift */; };
@@ -55,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		238F02F1223879830017937F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		23966CAF223888BB00D476B5 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "../../Sources/String+Extension.swift"; sourceTree = "<group>"; };
 		934DBCFB1CC76D4600E03F87 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
 		934DBCFC1CC76D4600E03F87 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		934DBD001CC774B900E03F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/SkyFloatingLabelTextField.strings; sourceTree = "<group>"; };
@@ -229,10 +229,10 @@
 		F562891A1C3BE3A20082D9A6 /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
+				23966CAF223888BB00D476B5 /* String+Extension.swift */,
 				F5B6E1021C8604C2003D4DB9 /* SkyFloatingLabelTextField.swift */,
 				F5B6E1041C8604C2003D4DB9 /* SkyFloatingLabelTextFieldWithIcon.swift */,
 				F5B6E1051C8604C2003D4DB9 /* UITextField+fixCaretPosition.swift */,
-				238F02F1223879830017937F /* String+Extension.swift */,
 				F562891D1C3BE3A20082D9A6 /* Info.plist */,
 			);
 			path = SkyFloatingLabelTextField;
@@ -436,7 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				238F02F2223879830017937F /* String+Extension.swift in Sources */,
+				23966CB0223888BC00D476B5 /* String+Extension.swift in Sources */,
 				F5B6E1061C8604C2003D4DB9 /* SkyFloatingLabelTextField.swift in Sources */,
 				F5B6E1081C8604C2003D4DB9 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				F5B6E1091C8604C2003D4DB9 /* UITextField+fixCaretPosition.swift in Sources */,
